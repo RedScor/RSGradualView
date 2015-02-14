@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1B86C51A8FCCFA0053B11B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86C41A8FCCFA0053B11B /* main.m */; };
+		EC1B86C81A8FCCFA0053B11B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86C71A8FCCFA0053B11B /* AppDelegate.m */; };
+		EC1B86CB1A8FCCFA0053B11B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86CA1A8FCCFA0053B11B /* ViewController.m */; };
+		EC1B86CE1A8FCCFA0053B11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86CC1A8FCCFA0053B11B /* Main.storyboard */; };
+		EC1B86D01A8FCCFA0053B11B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86CF1A8FCCFA0053B11B /* Images.xcassets */; };
+		EC1B86D31A8FCCFA0053B11B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86D11A8FCCFA0053B11B /* LaunchScreen.xib */; };
+		EC1B86DF1A8FCCFA0053B11B /* RSGradualViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86DE1A8FCCFA0053B11B /* RSGradualViewTests.m */; };
+		EC1B86F21A8FCD350053B11B /* icon_like_active.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86EC1A8FCD350053B11B /* icon_like_active.png */; };
+		EC1B86F31A8FCD350053B11B /* icon_like_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86ED1A8FCD350053B11B /* icon_like_active@2x.png */; };
+		EC1B86F41A8FCD350053B11B /* icon_like_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86EE1A8FCD350053B11B /* icon_like_active@3x.png */; };
+		EC1B86F51A8FCD350053B11B /* icon_like_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86EF1A8FCD350053B11B /* icon_like_normal.png */; };
+		EC1B86F61A8FCD350053B11B /* icon_like_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86F01A8FCD350053B11B /* icon_like_normal@2x.png */; };
+		EC1B86F71A8FCD350053B11B /* icon_like_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86F11A8FCD350053B11B /* icon_like_normal@3x.png */; };
+		EC1B86FB1A8FD00E0053B11B /* RSGradualView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86FA1A8FD00E0053B11B /* RSGradualView.m */; };
+		EC1B86FF1A8FD0AC0053B11B /* bt_mail_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86FC1A8FD0AC0053B11B /* bt_mail_normal.png */; };
+		EC1B87001A8FD0AC0053B11B /* bt_mail_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86FD1A8FD0AC0053B11B /* bt_mail_normal@2x.png */; };
+		EC1B87011A8FD0AC0053B11B /* bt_mail_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86FE1A8FD0AC0053B11B /* bt_mail_normal@3x.png */; };
+		EC1B87051A8FD0C00053B11B /* bt_mail_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B87021A8FD0C00053B11B /* bt_mail_disable.png */; };
+		EC1B87061A8FD0C00053B11B /* bt_mail_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B87031A8FD0C00053B11B /* bt_mail_disable@2x.png */; };
+		EC1B87071A8FD0C00053B11B /* bt_mail_disable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1B87041A8FD0C00053B11B /* bt_mail_disable@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1B86D91A8FCCFA0053B11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1B86B71A8FCCFA0053B11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1B86BE1A8FCCFA0053B11B;
+			remoteInfo = RSGradualView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1B86BF1A8FCCFA0053B11B /* RSGradualView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSGradualView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1B86C31A8FCCFA0053B11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1B86C41A8FCCFA0053B11B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC1B86C61A8FCCFA0053B11B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC1B86C71A8FCCFA0053B11B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC1B86C91A8FCCFA0053B11B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC1B86CA1A8FCCFA0053B11B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC1B86CD1A8FCCFA0053B11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1B86CF1A8FCCFA0053B11B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC1B86D21A8FCCFA0053B11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC1B86D81A8FCCFA0053B11B /* RSGradualViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSGradualViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1B86DD1A8FCCFA0053B11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1B86DE1A8FCCFA0053B11B /* RSGradualViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSGradualViewTests.m; sourceTree = "<group>"; };
+		EC1B86EC1A8FCD350053B11B /* icon_like_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like_active.png; sourceTree = "<group>"; };
+		EC1B86ED1A8FCD350053B11B /* icon_like_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_active@2x.png"; sourceTree = "<group>"; };
+		EC1B86EE1A8FCD350053B11B /* icon_like_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_active@3x.png"; sourceTree = "<group>"; };
+		EC1B86EF1A8FCD350053B11B /* icon_like_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like_normal.png; sourceTree = "<group>"; };
+		EC1B86F01A8FCD350053B11B /* icon_like_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_normal@2x.png"; sourceTree = "<group>"; };
+		EC1B86F11A8FCD350053B11B /* icon_like_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_normal@3x.png"; sourceTree = "<group>"; };
+		EC1B86F91A8FD00E0053B11B /* RSGradualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGradualView.h; sourceTree = "<group>"; };
+		EC1B86FA1A8FD00E0053B11B /* RSGradualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGradualView.m; sourceTree = "<group>"; };
+		EC1B86FC1A8FD0AC0053B11B /* bt_mail_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_mail_normal.png; sourceTree = "<group>"; };
+		EC1B86FD1A8FD0AC0053B11B /* bt_mail_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_normal@2x.png"; sourceTree = "<group>"; };
+		EC1B86FE1A8FD0AC0053B11B /* bt_mail_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_normal@3x.png"; sourceTree = "<group>"; };
+		EC1B87021A8FD0C00053B11B /* bt_mail_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_mail_disable.png; sourceTree = "<group>"; };
+		EC1B87031A8FD0C00053B11B /* bt_mail_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_disable@2x.png"; sourceTree = "<group>"; };
+		EC1B87041A8FD0C00053B11B /* bt_mail_disable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_disable@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1B86BC1A8FCCFA0053B11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1B86D51A8FCCFA0053B11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1B86B61A8FCCFA0053B11B = {
+			isa = PBXGroup;
+			children = (
+				EC1B87081A8FD0C70053B11B /* imags */,
+				EC1B86C11A8FCCFA0053B11B /* RSGradualView */,
+				EC1B86DB1A8FCCFA0053B11B /* RSGradualViewTests */,
+				EC1B86C01A8FCCFA0053B11B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1B86C01A8FCCFA0053B11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86BF1A8FCCFA0053B11B /* RSGradualView.app */,
+				EC1B86D81A8FCCFA0053B11B /* RSGradualViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1B86C11A8FCCFA0053B11B /* RSGradualView */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86F81A8FD00E0053B11B /* RSGradualView */,
+				EC1B86C61A8FCCFA0053B11B /* AppDelegate.h */,
+				EC1B86C71A8FCCFA0053B11B /* AppDelegate.m */,
+				EC1B86C91A8FCCFA0053B11B /* ViewController.h */,
+				EC1B86CA1A8FCCFA0053B11B /* ViewController.m */,
+				EC1B86CC1A8FCCFA0053B11B /* Main.storyboard */,
+				EC1B86CF1A8FCCFA0053B11B /* Images.xcassets */,
+				EC1B86D11A8FCCFA0053B11B /* LaunchScreen.xib */,
+				EC1B86C21A8FCCFA0053B11B /* Supporting Files */,
+			);
+			path = RSGradualView;
+			sourceTree = "<group>";
+		};
+		EC1B86C21A8FCCFA0053B11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86C31A8FCCFA0053B11B /* Info.plist */,
+				EC1B86C41A8FCCFA0053B11B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1B86DB1A8FCCFA0053B11B /* RSGradualViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86DE1A8FCCFA0053B11B /* RSGradualViewTests.m */,
+				EC1B86DC1A8FCCFA0053B11B /* Supporting Files */,
+			);
+			path = RSGradualViewTests;
+			sourceTree = "<group>";
+		};
+		EC1B86DC1A8FCCFA0053B11B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86DD1A8FCCFA0053B11B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC1B86F81A8FD00E0053B11B /* RSGradualView */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B86F91A8FD00E0053B11B /* RSGradualView.h */,
+				EC1B86FA1A8FD00E0053B11B /* RSGradualView.m */,
+			);
+			path = RSGradualView;
+			sourceTree = "<group>";
+		};
+		EC1B87081A8FD0C70053B11B /* imags */ = {
+			isa = PBXGroup;
+			children = (
+				EC1B87021A8FD0C00053B11B /* bt_mail_disable.png */,
+				EC1B87031A8FD0C00053B11B /* bt_mail_disable@2x.png */,
+				EC1B87041A8FD0C00053B11B /* bt_mail_disable@3x.png */,
+				EC1B86FC1A8FD0AC0053B11B /* bt_mail_normal.png */,
+				EC1B86FD1A8FD0AC0053B11B /* bt_mail_normal@2x.png */,
+				EC1B86FE1A8FD0AC0053B11B /* bt_mail_normal@3x.png */,
+				EC1B86EC1A8FCD350053B11B /* icon_like_active.png */,
+				EC1B86ED1A8FCD350053B11B /* icon_like_active@2x.png */,
+				EC1B86EE1A8FCD350053B11B /* icon_like_active@3x.png */,
+				EC1B86EF1A8FCD350053B11B /* icon_like_normal.png */,
+				EC1B86F01A8FCD350053B11B /* icon_like_normal@2x.png */,
+				EC1B86F11A8FCD350053B11B /* icon_like_normal@3x.png */,
+			);
+			name = imags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1B86BE1A8FCCFA0053B11B /* RSGradualView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1B86E21A8FCCFA0053B11B /* Build configuration list for PBXNativeTarget "RSGradualView" */;
+			buildPhases = (
+				EC1B86BB1A8FCCFA0053B11B /* Sources */,
+				EC1B86BC1A8FCCFA0053B11B /* Frameworks */,
+				EC1B86BD1A8FCCFA0053B11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSGradualView;
+			productName = RSGradualView;
+			productReference = EC1B86BF1A8FCCFA0053B11B /* RSGradualView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1B86D71A8FCCFA0053B11B /* RSGradualViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1B86E51A8FCCFA0053B11B /* Build configuration list for PBXNativeTarget "RSGradualViewTests" */;
+			buildPhases = (
+				EC1B86D41A8FCCFA0053B11B /* Sources */,
+				EC1B86D51A8FCCFA0053B11B /* Frameworks */,
+				EC1B86D61A8FCCFA0053B11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1B86DA1A8FCCFA0053B11B /* PBXTargetDependency */,
+			);
+			name = RSGradualViewTests;
+			productName = RSGradualViewTests;
+			productReference = EC1B86D81A8FCCFA0053B11B /* RSGradualViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1B86B71A8FCCFA0053B11B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "RedScor Yuan";
+				TargetAttributes = {
+					EC1B86BE1A8FCCFA0053B11B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EC1B86D71A8FCCFA0053B11B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EC1B86BE1A8FCCFA0053B11B;
+					};
+				};
+			};
+			buildConfigurationList = EC1B86BA1A8FCCFA0053B11B /* Build configuration list for PBXProject "RSGradualView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1B86B61A8FCCFA0053B11B;
+			productRefGroup = EC1B86C01A8FCCFA0053B11B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1B86BE1A8FCCFA0053B11B /* RSGradualView */,
+				EC1B86D71A8FCCFA0053B11B /* RSGradualViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1B86BD1A8FCCFA0053B11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1B87061A8FD0C00053B11B /* bt_mail_disable@2x.png in Resources */,
+				EC1B87071A8FD0C00053B11B /* bt_mail_disable@3x.png in Resources */,
+				EC1B87051A8FD0C00053B11B /* bt_mail_disable.png in Resources */,
+				EC1B86CE1A8FCCFA0053B11B /* Main.storyboard in Resources */,
+				EC1B86F61A8FCD350053B11B /* icon_like_normal@2x.png in Resources */,
+				EC1B86D31A8FCCFA0053B11B /* LaunchScreen.xib in Resources */,
+				EC1B86FF1A8FD0AC0053B11B /* bt_mail_normal.png in Resources */,
+				EC1B86D01A8FCCFA0053B11B /* Images.xcassets in Resources */,
+				EC1B86F51A8FCD350053B11B /* icon_like_normal.png in Resources */,
+				EC1B86F71A8FCD350053B11B /* icon_like_normal@3x.png in Resources */,
+				EC1B87011A8FD0AC0053B11B /* bt_mail_normal@3x.png in Resources */,
+				EC1B86F41A8FCD350053B11B /* icon_like_active@3x.png in Resources */,
+				EC1B86F31A8FCD350053B11B /* icon_like_active@2x.png in Resources */,
+				EC1B87001A8FD0AC0053B11B /* bt_mail_normal@2x.png in Resources */,
+				EC1B86F21A8FCD350053B11B /* icon_like_active.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1B86D61A8FCCFA0053B11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1B86BB1A8FCCFA0053B11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1B86CB1A8FCCFA0053B11B /* ViewController.m in Sources */,
+				EC1B86C81A8FCCFA0053B11B /* AppDelegate.m in Sources */,
+				EC1B86FB1A8FD00E0053B11B /* RSGradualView.m in Sources */,
+				EC1B86C51A8FCCFA0053B11B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1B86D41A8FCCFA0053B11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1B86DF1A8FCCFA0053B11B /* RSGradualViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1B86DA1A8FCCFA0053B11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1B86BE1A8FCCFA0053B11B /* RSGradualView */;
+			targetProxy = EC1B86D91A8FCCFA0053B11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1B86CC1A8FCCFA0053B11B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1B86CD1A8FCCFA0053B11B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1B86D11A8FCCFA0053B11B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1B86D21A8FCCFA0053B11B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1B86E01A8FCCFA0053B11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC1B86E11A8FCCFA0053B11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1B86E31A8FCCFA0053B11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSGradualView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1B86E41A8FCCFA0053B11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSGradualView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1B86E61A8FCCFA0053B11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSGradualViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSGradualView.app/RSGradualView";
+			};
+			name = Debug;
+		};
+		EC1B86E71A8FCCFA0053B11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RSGradualViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSGradualView.app/RSGradualView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1B86BA1A8FCCFA0053B11B /* Build configuration list for PBXProject "RSGradualView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1B86E01A8FCCFA0053B11B /* Debug */,
+				EC1B86E11A8FCCFA0053B11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1B86E21A8FCCFA0053B11B /* Build configuration list for PBXNativeTarget "RSGradualView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1B86E31A8FCCFA0053B11B /* Debug */,
+				EC1B86E41A8FCCFA0053B11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1B86E51A8FCCFA0053B11B /* Build configuration list for PBXNativeTarget "RSGradualViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1B86E61A8FCCFA0053B11B /* Debug */,
+				EC1B86E71A8FCCFA0053B11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1B86B71A8FCCFA0053B11B /* Project object */;
+}
