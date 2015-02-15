@@ -34,6 +34,7 @@
     self.delegate = delegate;
     [self initGradualImages];
     [self addGesture];
+    self.duration = 0.5;
     self.clipsToBounds = YES;
     self.userInteractionEnabled = YES;
     return self;
@@ -45,6 +46,7 @@
     self.userInteractionEnabled = YES;
     [self initGradualImages];
     [self addGesture];
+    self.duration = 0.5;
     self.clipsToBounds = YES;
 }
 
@@ -69,7 +71,7 @@
         imgView.clipsToBounds = YES;
 
         if (i == 1) {
-            maskView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 0, 22)];
+            maskView = [[UIView alloc]initWithFrame:CGRectZero];
             maskView.backgroundColor = [UIColor clearColor];
             maskView.clipsToBounds = YES;
             [self addSubview:maskView];
@@ -80,7 +82,13 @@
         
     }
 
-    maskView.frame = CGRectMake(0, 0, self.selected ? imgWidth : 0 , imgHeight);
+    if (self.gradualType == GradualViewHorizontal) {
+        maskView.frame = CGRectMake(0, 0, self.selected ? imgWidth : 0 , imgHeight);
+    }else {
+        maskView.frame = CGRectMake(0, 0,  imgWidth , imgHeight);
+        maskView.alpha = self.selected ? 1.0 : 0.0;
+    }
+
 }
 
 - (void)layoutSubviews
@@ -93,12 +101,21 @@
 
 - (void)tapView:(UITapGestureRecognizer *)gesture
 {
+    maskView.alpha = 1.0;
 
-    maskView.frame = CGRectMake(0, 0, self.selected ? imgWidth : 0, imgHeight);
-
+    if (self.gradualType == GradualViewHorizontal) {
+        maskView.frame = CGRectMake(0, 0, self.selected ? imgWidth : 0 , imgHeight);
+    }else {
+        CGAffineTransform transformScale = self.selected ? CGAffineTransformIdentity : CGAffineTransformMakeScale(0.0001f, 0.0001f);
+        maskView.transform = transformScale;
+    }
     self.userInteractionEnabled = NO;
     [UIView animateWithDuration:1.0 animations:^{
-        maskView.frame = CGRectMake(0, 0, self.selected ? 0 : imgWidth, imgHeight);
+        if (self.gradualType == GradualViewHorizontal) {
+            maskView.frame = CGRectMake(0, 0, self.selected ? 0 : imgWidth, imgHeight);
+        }else {
+            maskView.transform = self.selected ? CGAffineTransformMakeScale(0.0001f, 0.0001f) : CGAffineTransformIdentity;
+        }
 
     }completion:^(BOOL finished) {
         self.selected = !self.selected;
@@ -129,7 +146,7 @@
                     [NSNumber numberWithFloat:1],
                     nil];
     
-    shake.duration = 0.5;
+    shake.duration = self.duration;
     
     [view.layer addAnimation:shake forKey:@"viewShake"];
 }

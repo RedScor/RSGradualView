@@ -15,18 +15,16 @@
 		EC1B86D31A8FCCFA0053B11B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1B86D11A8FCCFA0053B11B /* LaunchScreen.xib */; };
 		EC1B86DF1A8FCCFA0053B11B /* RSGradualViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86DE1A8FCCFA0053B11B /* RSGradualViewTests.m */; };
 		EC1B86FB1A8FD00E0053B11B /* RSGradualView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B86FA1A8FD00E0053B11B /* RSGradualView.m */; };
-		EC1F96331A8FD92C00FBFBA8 /* bt_mail_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96271A8FD92C00FBFBA8 /* bt_mail_disable.png */; };
-		EC1F96341A8FD92C00FBFBA8 /* bt_mail_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96281A8FD92C00FBFBA8 /* bt_mail_disable@2x.png */; };
-		EC1F96351A8FD92C00FBFBA8 /* bt_mail_disable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96291A8FD92C00FBFBA8 /* bt_mail_disable@3x.png */; };
-		EC1F96361A8FD92C00FBFBA8 /* bt_mail_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962A1A8FD92C00FBFBA8 /* bt_mail_normal.png */; };
-		EC1F96371A8FD92C00FBFBA8 /* bt_mail_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962B1A8FD92C00FBFBA8 /* bt_mail_normal@2x.png */; };
-		EC1F96381A8FD92C00FBFBA8 /* bt_mail_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962C1A8FD92C00FBFBA8 /* bt_mail_normal@3x.png */; };
 		EC1F96391A8FD92C00FBFBA8 /* icon_like_active.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962D1A8FD92C00FBFBA8 /* icon_like_active.png */; };
 		EC1F963A1A8FD92C00FBFBA8 /* icon_like_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962E1A8FD92C00FBFBA8 /* icon_like_active@2x.png */; };
 		EC1F963B1A8FD92C00FBFBA8 /* icon_like_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F962F1A8FD92C00FBFBA8 /* icon_like_active@3x.png */; };
 		EC1F963C1A8FD92C00FBFBA8 /* icon_like_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96301A8FD92C00FBFBA8 /* icon_like_normal.png */; };
 		EC1F963D1A8FD92C00FBFBA8 /* icon_like_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96311A8FD92C00FBFBA8 /* icon_like_normal@2x.png */; };
 		EC1F963E1A8FD92C00FBFBA8 /* icon_like_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96321A8FD92C00FBFBA8 /* icon_like_normal@3x.png */; };
+		EC1F96451A905CB800FBFBA8 /* icon_like1_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96431A905CB800FBFBA8 /* icon_like1_normal.png */; };
+		EC1F96461A905CB800FBFBA8 /* icon_like1_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96441A905CB800FBFBA8 /* icon_like1_normal@2x.png */; };
+		EC1F96491A905CC200FBFBA8 /* icon_like1_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96471A905CC200FBFBA8 /* icon_like1_activity.png */; };
+		EC1F964A1A905CC200FBFBA8 /* icon_like1_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F96481A905CC200FBFBA8 /* icon_like1_activity@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,18 +53,16 @@
 		EC1B86DE1A8FCCFA0053B11B /* RSGradualViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSGradualViewTests.m; sourceTree = "<group>"; };
 		EC1B86F91A8FD00E0053B11B /* RSGradualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGradualView.h; sourceTree = "<group>"; };
 		EC1B86FA1A8FD00E0053B11B /* RSGradualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGradualView.m; sourceTree = "<group>"; };
-		EC1F96271A8FD92C00FBFBA8 /* bt_mail_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_mail_disable.png; sourceTree = "<group>"; };
-		EC1F96281A8FD92C00FBFBA8 /* bt_mail_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_disable@2x.png"; sourceTree = "<group>"; };
-		EC1F96291A8FD92C00FBFBA8 /* bt_mail_disable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_disable@3x.png"; sourceTree = "<group>"; };
-		EC1F962A1A8FD92C00FBFBA8 /* bt_mail_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_mail_normal.png; sourceTree = "<group>"; };
-		EC1F962B1A8FD92C00FBFBA8 /* bt_mail_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_normal@2x.png"; sourceTree = "<group>"; };
-		EC1F962C1A8FD92C00FBFBA8 /* bt_mail_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt_mail_normal@3x.png"; sourceTree = "<group>"; };
 		EC1F962D1A8FD92C00FBFBA8 /* icon_like_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like_active.png; sourceTree = "<group>"; };
 		EC1F962E1A8FD92C00FBFBA8 /* icon_like_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_active@2x.png"; sourceTree = "<group>"; };
 		EC1F962F1A8FD92C00FBFBA8 /* icon_like_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_active@3x.png"; sourceTree = "<group>"; };
 		EC1F96301A8FD92C00FBFBA8 /* icon_like_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like_normal.png; sourceTree = "<group>"; };
 		EC1F96311A8FD92C00FBFBA8 /* icon_like_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_normal@2x.png"; sourceTree = "<group>"; };
 		EC1F96321A8FD92C00FBFBA8 /* icon_like_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like_normal@3x.png"; sourceTree = "<group>"; };
+		EC1F96431A905CB800FBFBA8 /* icon_like1_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like1_normal.png; sourceTree = "<group>"; };
+		EC1F96441A905CB800FBFBA8 /* icon_like1_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like1_normal@2x.png"; sourceTree = "<group>"; };
+		EC1F96471A905CC200FBFBA8 /* icon_like1_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_like1_activity.png; sourceTree = "<group>"; };
+		EC1F96481A905CC200FBFBA8 /* icon_like1_activity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_like1_activity@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,12 +156,10 @@
 		EC1F96261A8FD92C00FBFBA8 /* imags */ = {
 			isa = PBXGroup;
 			children = (
-				EC1F96271A8FD92C00FBFBA8 /* bt_mail_disable.png */,
-				EC1F96281A8FD92C00FBFBA8 /* bt_mail_disable@2x.png */,
-				EC1F96291A8FD92C00FBFBA8 /* bt_mail_disable@3x.png */,
-				EC1F962A1A8FD92C00FBFBA8 /* bt_mail_normal.png */,
-				EC1F962B1A8FD92C00FBFBA8 /* bt_mail_normal@2x.png */,
-				EC1F962C1A8FD92C00FBFBA8 /* bt_mail_normal@3x.png */,
+				EC1F96471A905CC200FBFBA8 /* icon_like1_activity.png */,
+				EC1F96481A905CC200FBFBA8 /* icon_like1_activity@2x.png */,
+				EC1F96431A905CB800FBFBA8 /* icon_like1_normal.png */,
+				EC1F96441A905CB800FBFBA8 /* icon_like1_normal@2x.png */,
 				EC1F962D1A8FD92C00FBFBA8 /* icon_like_active.png */,
 				EC1F962E1A8FD92C00FBFBA8 /* icon_like_active@2x.png */,
 				EC1F962F1A8FD92C00FBFBA8 /* icon_like_active@3x.png */,
@@ -257,20 +251,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1B86CE1A8FCCFA0053B11B /* Main.storyboard in Resources */,
-				EC1F96381A8FD92C00FBFBA8 /* bt_mail_normal@3x.png in Resources */,
 				EC1F963E1A8FD92C00FBFBA8 /* icon_like_normal@3x.png in Resources */,
-				EC1F96351A8FD92C00FBFBA8 /* bt_mail_disable@3x.png in Resources */,
 				EC1F963D1A8FD92C00FBFBA8 /* icon_like_normal@2x.png in Resources */,
-				EC1F96371A8FD92C00FBFBA8 /* bt_mail_normal@2x.png in Resources */,
-				EC1F96331A8FD92C00FBFBA8 /* bt_mail_disable.png in Resources */,
 				EC1F963C1A8FD92C00FBFBA8 /* icon_like_normal.png in Resources */,
-				EC1F96341A8FD92C00FBFBA8 /* bt_mail_disable@2x.png in Resources */,
+				EC1F96491A905CC200FBFBA8 /* icon_like1_activity.png in Resources */,
+				EC1F964A1A905CC200FBFBA8 /* icon_like1_activity@2x.png in Resources */,
 				EC1B86D31A8FCCFA0053B11B /* LaunchScreen.xib in Resources */,
 				EC1F96391A8FD92C00FBFBA8 /* icon_like_active.png in Resources */,
-				EC1F96361A8FD92C00FBFBA8 /* bt_mail_normal.png in Resources */,
 				EC1F963B1A8FD92C00FBFBA8 /* icon_like_active@3x.png in Resources */,
 				EC1B86D01A8FCCFA0053B11B /* Images.xcassets in Resources */,
+				EC1F96451A905CB800FBFBA8 /* icon_like1_normal.png in Resources */,
 				EC1F963A1A8FD92C00FBFBA8 /* icon_like_active@2x.png in Resources */,
+				EC1F96461A905CB800FBFBA8 /* icon_like1_normal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

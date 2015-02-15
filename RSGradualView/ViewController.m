@@ -11,7 +11,7 @@
 
 @interface ViewController ()<RSGradualViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UIImageView *gradualViewXib;
+@property (weak, nonatomic) IBOutlet RSGradualView *gradualViewXib;
 @end
 
 @implementation ViewController
@@ -19,11 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     RSGradualView *gradualView = [[RSGradualView alloc]initWithFrame:CGRectMake(200, 200, 0, 0)
-                                                           normalImg:@"bt_mail_disable.png"
-                                                         selectedImg:@"bt_mail_normal.png"
+                                                           normalImg:@"icon_like1_normal.png"
+                                                         selectedImg:@"icon_like1_activity.png"
                                                             delegate:self];
     
     gradualView.tag = 99;
+    gradualView.gradualType = GradualViewHorizontal;
     [self.view addSubview:gradualView];
 }
 
@@ -39,7 +40,7 @@
         destCtrl.title = @"from init";
     }
 
-    [self.navigationController performSelector:@selector(pushViewController:animated:) withObject:destCtrl afterDelay:1.0];
+//    [self.navigationController performSelector:@selector(pushViewController:animated:) withObject:destCtrl afterDelay:1.0];
 }
 - (IBAction)resetStatus:(id)sender {
     

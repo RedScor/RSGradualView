@@ -15,9 +15,18 @@
 
 @end
 
+typedef NS_ENUM(NSInteger, gradualViewType)
+{
+    GradualViewFill,
+    GradualViewHorizontal
+};
+
 @interface RSGradualView : UIImageView
 @property (nonatomic, weak) IBOutlet id<RSGradualViewDelegate>delegate;
 @property (nonatomic, assign) BOOL selected;
+@property (nonatomic, assign) gradualViewType gradualType;
+@property (nonatomic, assign) CGFloat duration;
+
 
 
 - (instancetype)initWithFrame:(CGRect)frame
