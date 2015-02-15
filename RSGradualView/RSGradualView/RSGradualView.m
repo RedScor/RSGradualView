@@ -32,17 +32,17 @@
     self.image = [UIImage imageNamed:normalImg];
     self.highlightedImage = [UIImage imageNamed:selectedImg];
     self.delegate = delegate;
-    [self initGradualImages];
-    [self addGesture];
-    self.duration = 0.5;
-    self.clipsToBounds = YES;
-    self.userInteractionEnabled = YES;
+    [self view_setup];
     return self;
 }
 
 - (void)awakeFromNib
 {
     [super awakeFromNib];
+    [self view_setup];
+}
+
+- (void)view_setup {
     self.userInteractionEnabled = YES;
     [self initGradualImages];
     [self addGesture];
