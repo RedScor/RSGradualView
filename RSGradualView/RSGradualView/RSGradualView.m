@@ -50,6 +50,18 @@
     self.clipsToBounds = YES;
 }
 
+- (void)setSelected:(BOOL)selected
+{
+    if (self.gradualType == GradualViewHorizontal) {
+        maskView.frame = CGRectMake(0, 0, selected ? imgWidth : 0 , imgHeight);
+    }else {
+        maskView.transform = selected ? CGAffineTransformIdentity :CGAffineTransformMakeScale(0.0001f, 0.0001f) ;
+    }
+    maskView.alpha = selected ? 1.0 : 0.0;
+    _selected = selected;
+    
+}
+
 - (void)addGesture
 {
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapView:)];
@@ -110,7 +122,7 @@
         maskView.transform = transformScale;
     }
     self.userInteractionEnabled = NO;
-    [UIView animateWithDuration:1.0 animations:^{
+    [UIView animateWithDuration:0.5 animations:^{
         if (self.gradualType == GradualViewHorizontal) {
             maskView.frame = CGRectMake(0, 0, self.selected ? 0 : imgWidth, imgHeight);
         }else {
@@ -137,6 +149,7 @@
 }
 
 - (void)shakeView:(UIView *)view {
+
     CAKeyframeAnimation *shake = [CAKeyframeAnimation animationWithKeyPath:@"transform.scale"];
     shake.values = [NSArray arrayWithObjects:
                     [NSNumber numberWithFloat:0.8],
@@ -145,10 +158,11 @@
                     [NSNumber numberWithFloat:1.2],
                     [NSNumber numberWithFloat:1],
                     nil];
-    
     shake.duration = self.duration;
     
     [view.layer addAnimation:shake forKey:@"viewShake"];
 }
+
+
 
 @end

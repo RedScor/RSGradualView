@@ -25,7 +25,9 @@
     
     gradualView.tag = 99;
     gradualView.gradualType = GradualViewHorizontal;
+    gradualView.selected = YES;
     [self.view addSubview:gradualView];
+    
 }
 
 - (void)clickGradualView:(RSGradualView *)gradualView selected:(BOOL)selected
